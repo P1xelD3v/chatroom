@@ -1,6 +1,8 @@
 get("message").set_content("Hello, World")
 
-local socket = require("socket")
+local socket = dofile("setup.lua")
+
+get("message").set_content("test1")
 
 local function startServer(port)
     local server = assert(socket.bind("*", port))
@@ -35,6 +37,8 @@ local function startServer(port)
         socket.sleep(0.1)
     end
 end
+
+get("message").set_content("test2")
 
 local function startClient(ip, port)
     local client = assert(socket.connect(ip, port))
@@ -73,6 +77,8 @@ local function startClient(ip, port)
     end
 end
 
+get("message").set_content("test3")
+
 local port = 12345
 local ip = "127.0.0.1"
 local serverAvailable = true
@@ -81,6 +87,8 @@ local testClient = socket.tcp()
 testClient:settimeout(2)
 local result, err = testClient:connect(ip, port)
 testClient:close()
+
+get("message").set_content("test4")
 
 if result == nil then
     get("message").set_content("No server found, starting as server...")
@@ -91,8 +99,12 @@ else
     print("Server found, connecting as client...")
 end
 
+get("message").set_content("test5")
+
 if serverAvailable then
     startClient(ip, port)
 else
     startServer(port)
 end
+
+get("message").set_content("test6")
