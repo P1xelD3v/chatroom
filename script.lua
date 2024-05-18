@@ -1,4 +1,4 @@
-get("message").set_content("Hello, World")
+get("message").set_content("test")
 
 local socket = dofile("setup.lua")
 
