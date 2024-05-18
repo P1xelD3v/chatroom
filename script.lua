@@ -12,4 +12,4 @@ function sendPostRequest(method)
     return res
 end
 
-get("message").set_content(sendPostRequest("/send-message"))
+get("message").set_content(sendPostRequest("GET"))
