@@ -1,4 +1,84 @@
 body {
+    direction: row;
+}
+
+container1 {
+    margin-left: 75px;
+    margin-top: 75px;
     direction: column;
-    align-items: center;
+}
+
+container2 {
+    margin-left: 200px;
+    margin-top: 75px;
+    direction: column;
+}
+
+message_container {
+    direction: column;
+}
+
+message {
+    direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+username {
+    color: #171717;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+
+message_text {
+    color: #171717;
+    font-size: 11px;
+}
+
+message_container {
+    direction: column;
+    gap: 15px;
+}
+
+send_btn {
+    border-radius: 1000px;
+}
+
+input_container {
+    margin-top: 20px;
+}
+
+username {
+    direction: column;
+    gap: 5px;
+}
+
+password {
+    direction: column;
+    gap: 5px;
+}
+
+acount_buttons {
+    direction: row;
+    gap: 5px;
+}
+
+acount_container {
+    direction: column;
+    gap: 10px;
+}
+
+message_input {
+    background-color: #fff;
+    color: #171717;
+}
+
+username_text {
+    color: #171717;
+}
+
+password_text {
+    color: #171717;
 }
