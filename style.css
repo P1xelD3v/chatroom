@@ -9,7 +9,7 @@ container1 {
 }
 
 container2 {
-    margin-left: 200px;
+    margin-left: 25px;
     margin-top: 75px;
     direction: column;
 }
@@ -28,13 +28,13 @@ message {
 username {
     color: #171717;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 16px;
 }
 
 
 message_text {
     color: #171717;
-    font-size: 11px;
+    font-size: 15px;
 }
 
 message_container {
@@ -42,36 +42,46 @@ message_container {
     gap: 15px;
 }
 
-send_btn {
-    border-radius: 1000px;
-}
-
 input_container {
     margin-top: 20px;
 }
 
-username {
+username_container {
     direction: column;
-    gap: 5px;
 }
 
-password {
+password_container {
     direction: column;
-    gap: 5px;
 }
 
-acount_buttons {
+account_buttons {
     direction: row;
     gap: 5px;
 }
 
-acount_container {
+account_container {
     direction: column;
     gap: 10px;
 }
 
 message_input {
     background-color: #fff;
+    color: #171717;
+    font-size: 16px;
+    border-width: 0px;
+}
+
+message_input_background {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+password_input {
+    color:#171717;
+}
+
+username_input {
     color: #171717;
 }
 
@@ -81,4 +91,35 @@ username_text {
 
 password_text {
     color: #171717;
+}
+
+account_container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+login_btn {
+    background-color: #bababa;
+    padding: 5px;
+}
+
+register_btn {
+    background-color: #bababa;
+    padding: 5px;
+}
+
+account_error {
+    color: #ff3838;
+    font-size: 15px;
+}
+
+account_success {
+    color: #3d8700;
+    font-size: 15px;
+}
+
+current_account {
+    color: #171717;
+    font-size: 15px;
 }
