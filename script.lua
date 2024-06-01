@@ -1,6 +1,6 @@
 -- file://C:/Users/bramw/OneDrive/Desktop/chat.it
 
-local API_URL = "https://script.google.com/macros/s/AKfycby2Z4kKFwqvduQaeV49gTr6_ACtvHPqaBQQ-WrreRW-MSM70gHpYmB2tcCSZWH3kPh5/exec"
+local API_URL = "https://script.google.com/macros/s/AKfycbzRpETjssJQPY1bL96zgoiIUxw78n5yMOfk31ntpOv56cpAcaF_uh6J2uPRmhDb91M0/exec"
 local MAX_MESSAGES = 10
 
 local MIN_USERNAME_LENGTH = 4
