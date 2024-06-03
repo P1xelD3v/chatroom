@@ -1,16 +1,16 @@
-body {
+background {
+    background-color: #1c1c1c;
     direction: row;
+    align-items: center;
 }
 
 container1 {
-    margin-left: 75px;
-    margin-top: 75px;
     direction: column;
 }
 
 container2 {
     margin-left: 25px;
-    margin-top: 75px;
+    margin-top: 23px;
     direction: column;
 }
 
@@ -20,21 +20,22 @@ message_container {
 
 message {
     direction: column;
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 15px;
+    background-color: #5965e2;
+    border-radius: 10px;
+    padding: 26px;
 }
 
 username {
-    color: #171717;
+    color: #ffffff;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 9px;
 }
 
 
 message_text {
-    color: #171717;
-    font-size: 15px;
+    color: #ffffff;
+    font-size: 11px;
+    margin-top: 3px;
 }
 
 message_container {
@@ -47,79 +48,147 @@ input_container {
 }
 
 username_container {
-    direction: column;
+    background-color: #4c59e4;
+    border-radius: 7px;
 }
 
 password_container {
-    direction: column;
+    background-color: #4c59e4;
+    border-radius: 7px;
 }
 
 account_buttons {
+    margin-top: 10px;
     direction: row;
     gap: 5px;
 }
 
-account_container {
-    direction: column;
-    gap: 10px;
-}
-
 message_input {
-    background-color: #fff;
+    padding: 16px;
+    background-color: #ffffff;
     color: #171717;
     font-size: 16px;
     border-width: 0px;
 }
 
 message_input_background {
-    padding: 15px;
+    padding: 5px;
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 100px;
+    direction: row;
+    align-items: center;
 }
 
 password_input {
-    color:#171717;
+    color: #fff;
+    border-width: 0px;
+    padding: 5px;
 }
 
 username_input {
-    color: #171717;
+    color: #fff;
+    border-width: 0px;
+    padding: 5px;
 }
 
 username_text {
-    color: #171717;
+    color: #ffffff;
 }
 
 password_text {
-    color: #171717;
+    color: #ffffff;
 }
 
 account_container {
-    background-color: #fff;
+    direction: column;
+    gap: 5px;
+    background-color: #5965e2;
     border-radius: 8px;
     padding: 15px;
 }
 
 login_btn {
-    background-color: #bababa;
+    background-color: #4c59e4;
     padding: 5px;
 }
 
 register_btn {
-    background-color: #bababa;
+    background-color: #4c59e4;
     padding: 5px;
 }
 
-account_error {
-    color: #ff3838;
-    font-size: 15px;
-}
-
-account_success {
-    color: #3d8700;
-    font-size: 15px;
-}
-
 current_account {
-    color: #171717;
-    font-size: 15px;
+    color: #ffffff;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+message_title {
+    direction: row;
+    gap: 7px;
+}
+
+timestamp {
+    margin-top: 0px;
+    color: #ffffff;
+    font-size: 9px;
+}
+
+send_btn {
+    margin-top: 9px;
+    margin-bottom: 2px;
+    font-size: 26px;
+}
+
+refresh_btn {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 26px;
+}
+
+send_btn_background {
+    margin-left: 15px;
+    padding: 7px;
+    border-radius: 100px;
+    background-color: #5965e2;
+}
+
+refresh_btn_background {
+    margin-top: 3px;
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 100px;
+    background-color: #5965e2;
+}
+
+error_container {
+    align-items: center;
+}
+
+error {
+    color: #ff3838;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+success_container {
+    align-items: center;
+}
+
+success {
+    color: #5965e2;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+size_text {
+    color: #1c1c1c;
+}
+
+title {
+    font-weight: bold;
+    margin-top: 13px;
+    margin-left: 30px;
+    font-size: 14px;
 }

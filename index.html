@@ -2,78 +2,100 @@
 <head>
      <link rel="stylesheet" href="style.css">
      <script type="text/lua" src="script.lua"></script>
+     <title>Chat.it</title>
 </head>
 <body>
-     <div class="container1">
-          <div class="message_container">
-               <div class="message">
-                    <button class="username1 username">Username</button>
-                    <button class="message_text message_text1">Message</button>
-               </div>
-               <div class="message">
-                    <button class="username2 username">Username</button>
-                    <button class="message_text message_text2">Message</button>
-               </div>
-               <div class="message">
-                    <button class="username3 username">Username</button>
-                    <button class="message_text message_text3">Message</button>
-               </div>
-               <div class="message">
-                    <button class="username4 username">Username</button>
-                    <button class="message_text message_text4">Message</button>
-               </div>
-               <div class="message">
-                    <button class="username5 username">Username</button>
-                    <button class="message_text message_text5">Message</button>
-               </div>
-               <div class="message">
-                    <button class="username6 username">Username</button>
-                    <button class="message_text message_text6">Message</button>
-               </div>
-               <div class="message">
-                    <button class="username7 username">Username</button>
-                    <button class="message_text message_text7">Message</button>
-               </div>
-               <div class="message">
-                    <button class="username8 username">Username</button>
-                    <button class="message_text message_text8">Message</button>
-               </div>
-               <div class="message">
-                    <button class="username9 username">Username</button>
-                    <button class="message_text message_text9">Message</button>
-               </div>
-               <div class="message">
-                    <button class="username10 username">Username</button>
-                    <button class="message_text message_text10">Message</button>
-               </div>
-          </div>
-          <div class="input_container">
-               <div class="message_input_background">
-                    <input class="message_input">
-               </div>
-               <button class="send_btn">send</button>
-               <button class="refresh_btn">refresh</button>
-          </div>
-     </div>
-     <div class="container2">
-          <div class="account_container">
-               <div class="username_container">
-                    <p class="username_text">Username</p>
-                    <input class="username_input">
-               </div>
-               <div class="password_container">
-                    <p class="password_text">Password</p>
-                    <input class="password_input">
-               </div>
-               <div>
-                    <div class="account_buttons">
-                         <button class="login_btn">login</button>
-                         <button class="register_btn">register</button>
-                         <button class="account_error"></button>
-                         <button class="account_success"></button> 
+     <div class="background">
+          <div class="container1">
+               <p class="size_text">.                                                                                                                                               .</p>
+               <div class="message_container">
+                    <div class="message">
+                         <div class="message_title">
+                              <p class="username1 username">Username</p>
+                              <p class="timestamp1 timestamp">Timestamp</p>
+                         </div>
+                         <p class="message_text message_text1">Message</p>
+                    </div>
+                    <div class="message">
+                         <div class="message_title">
+                              <p class="username2 username">Username</p>
+                              <p class="timestamp2 timestamp">Timestamp</p>
+                         </div>
+                         <p class="message_text message_text2">Message</p>
+                    </div>
+                    <div class="message">
+                         <div class="message_title">
+                              <p class="username3 username">Username</p>
+                              <p class="timestamp3 timestamp">Timestamp</p>
+                         </div>
+                         <p class="message_text message_text3">Message</p>
+                    </div>
+                    <div class="message">
+                         <div class="message_title">
+                              <p class="username4 username">Username</p>
+                              <p class="timestamp4 timestamp">Timestamp</p>
+                         </div>
+                         <p class="message_text message_text4">Message</p>
+                    </div>
+                    <div class="message">
+                         <div class="message_title">
+                              <p class="username5 username">Username</p>
+                              <p class="timestamp5 timestamp">Timestamp</p>
+                         </div>
+                         <p class="message_text message_text5">Message</p>
+                    </div>
+                    <div class="message">
+                         <div class="message_title">
+                              <p class="username6 username">Username</p>
+                              <p class="timestamp6 timestamp">Timestamp</p>
+                         </div>
+                         <p class="message_text message_text6">Message</p>
+                    </div>
+                    <div class="message">
+                         <div class="message_title">
+                              <p class="username7 username">Username</p>
+                              <p class="timestamp7 timestamp">Timestamp</p>
+                         </div>
+                         <p class="message_text message_text7">Message</p>
                     </div>
                </div>
-               <button class="current_account">Account:</button>
+               <div class="input_container">
+                    <div class="message_input_background">
+                         <input class="message_input">
+                         <div class="send_btn_background">
+                              <button class="send_btn">💬</button>
+                         </div>
+                    </div>
+                    <p class="title">Chat.it - The #1 chatting platform</p>
+                    <div class="refresh_btn_background">
+                         <button class="refresh_btn">↻</button>
+                    </div>
+               </div>
+               <div class="error_container">
+                    <p class="error"></p>
+               </div>
+               <div class="success_container">
+                    <p class="success"></p>
+               </div>
+          </div>
+          <div class="container2">
+               <div class="account_container">
+                    <p class="username_text">Username</p>
+                    <div class="username_container">
+                         <input class="username_input">
+                    </div>
+                    <p class="password_text">Password</p>
+                    <div class="password_container">
+                         <input class="password_input">
+                    </div>
+                    <div>
+                         <div class="account_buttons">
+                              <button class="login_btn">login</button>
+                              <button class="register_btn">register</button>
+                         </div>
+                    </div>
+                    <p class="current_account">Account:</p>
+               </div>
           </div>
      </div>
 </body>
